@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <title>Таблица</title>
+    <style>
+      table {
+      	min-width: 300px;
+      	border: 3px solid grey;
+      }
+      th {
+      	border-bottom: 1px solid grey;
+      }
+      td {
+      	border: 1px solid grey;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <caption>Добыча драгоценных камней</caption>
+      <thead>
+      	<tr>
+          <th></th>
+          <th>2010</th>
+          <th>2012</th>
+          <th>2014</th>
+      	</tr>
+      </thead>
+      <tbody>
+      	<tr>
+          <td>Сапфиры</td>
+          <td rowspan="2">1483</td>
+          <td>4532</td>
+          <td>6743</td>
+      	</tr>
+      	<tr>
+      	  <td>Рубины</td>
+      	  <td>3825</td>
+      	  <td>7482</td>
+      	</tr>
+      	<tr>
+          <td>Алмазы</td>
+          <td>683</td>
+          <td colspan="2">238</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
